@@ -3,7 +3,7 @@
    <p><%=homeContent%></p>
     <%posts.forEach(function(post){%>
         <h1><%=post.Title%></h1>
-        <p><%=post.Content.substring(0,100)+" ..."%> <a href="http://localhost:3000/posts/<%=post._id%>">Read More.</a></p>
+        <p><%=post.Content.substring(0,100)+" ..."%> <a href="https://blogapp-4adg.onrender.com/posts/<%=post._id%>">Read More.</a></p>
     <%})%>
    
 <%- include('partials/footer') -%>
